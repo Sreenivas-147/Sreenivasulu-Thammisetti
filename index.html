@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio | Thammisetti Sreenivasulu</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><span>Sreeenivasulu</span> Thammisetti</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello, I'm Thammisetti Sreenivasulu</h4>
+        <h1>Cybersecurity Enthusiast</h1>
+        <p class="section__description">
+          Motivated and detail-oriented B.Tech CSE graduate specializing in
+          Cybersecurity. Passionate about protecting computer systems and networks from digital attacks. 
+        </p>
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download CV</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h4>Let's Introduce About Myself</h4>
+        <p class="section__description">
+          Hello, My name is <strong>Sreenivasulu Thammisetti</strong>, and I'm from Kadapa, Andhra Pradesh
+          I recently completed my B.Tech in Computer Science and Engineering with a specialization in <strong>Cybersecurity</strong>
+          from Bharatiya Engineering Science and Technology Innovation University located in Gorantla, Andhra Pradesh
+        </p>
+        <p class="section__description">
+          During my academic journey, I actively pursued internships to gain real-worls experience.
+          My first internship at <strong>TEMS Tech Solutions</strong> as a Cyberseucurity Intern.
+          where, I worked on implementing API Encryption, Access Controls, IDP and WAP deployment, and Incident Response planning as part of 
+          a project named <strong>BioConnect</strong>. The project aimed to Integrate Biotechnology and Data Sciece plugin using <strong>WordPress</strong><div class=""></div>
+        </p>
+        <p class="section__description">
+          Later, I interned as a Cyber Security Analyst at <strong>RamanaSoft Consulting Service</strong>, located in Hyderabad.
+          where I worked on <strong>Security Operation</strong>, handled in SIEM Tools, Conducted phishing investigation, and performed log analysis from various sources like <strong>Firewalls</strong> and <strong>Active Directory</strong>.
+          During this internship I also performed <strong>Vulnerability Assessment</strong> and became familiar with 
+          <strong>Penetration Testing</strong> methodologies and tools, enhancing my practical understanding of system weaknesses and mitigation strategies.
+        </p>
+      </div>
+    </section>
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">What I Do</h2>
+        <p class="section__description">
+          I specialize in delivering robust cybersecurity solutions that protect 
+      digital assets and ensure seamless and secure operations. From 
+      vulnerability assessments to implementing advanced encryption protocols, 
+      I bring expertise and dedication to securing the digital landscape.
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-mac-line"></i></span>
+            <div>
+              <h4>Network Security Solutions</h4>
+              <p>
+                Monitor and secure networks with tools like IDPS and Kali Linux, ensuring 
+        data integrity and protecting against cyber threats.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-quill-pen-fill"></i></span>
+            <div>
+              <h4>Vulnerability Assessment</h4>
+              <p>
+                Perform in-depth assessments to identify and mitigate potential vulnerabilities, 
+        securing systems against attacks.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-heart-line"></i></span>
+            <div>
+              <h4>Data Encryption and Backup</h4>
+              <p>
+                Implement advanced encryption protocols and secure backup mechanisms to protect 
+        sensitive information.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>Secure Coding Practices</h4>
+              <p>
+                Develop secure code for applications and APIs, ensuring system resilience and 
+        vulnerability-free deployments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section class="section__container resume__container" id="resume">
+  <h2 class="section__header">My Qualifications</h2>
+  <p class="section__description">
+    With a strong foundation in cybersecurity and a passion for continuous learning, 
+    my qualifications encompass academic achievements, hands-on projects, and professional experiences.
+  </p>
+  <div class="resume__tabs">
+    <div class="resume__tablist">
+      <button class="btn active" data-tab="1">Education</button>
+      <button class="btn" data-tab="2">Experience</button>
+      <button class="btn" data-tab="3">Certifications</button>
+    </div>
+    <div class="resume__tabpanel">
+      
+      <!-- Education Tab -->
+      <div class="panel__grid active" data-panel="1">
+        <div class="panel__card">
+          <span><i class="ri-graduation-cap-fill"></i></span>
+          <h4>B.Tech in Cyber Security</h4>
+          <p class="section__description">
+            Bharatiya Engineering Science and Technology Innovation University (2021 - 2025)
+          </p>
+          <p class="section__description">CGPA: 8.5/10</p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-certificate-line"></i></span>
+          <h4>Intermediate MPC</h4>
+          <p class="section__description">Government Junior College for Boys, Kadapa</p>
+          <p class="section__description">Marks: 455/1000</p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-certificate-line"></i></span>
+          <h4>Secondary School Education</h4>
+          <p class="section__description">Z.P. High School</p>
+          <p class="section__description">CGPA: 7.5/10</p>
+        </div>
+      </div>
+
+      <!-- Experience Tab -->
+      <div class="panel__grid" data-panel="2">
+        <div class="panel__card">
+          <span><i class="ri-terminal-box-line"></i></span>
+          <h4>Cyber Security Analyst Intern</h4>
+          <p class="section__description"><strong>RamanaSoft Consulting Services</strong></p>
+          <p>(Dec 2024 - May 2025)</p>
+          <p class="section__description">
+            - Network Pentesting<br>
+            - Security Operations<br>
+            - SIEM Tools Integration<br>
+            - Conducting VA & PT
+          </p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-terminal-box-line"></i></span>
+          <h4>Cybersecurity Intern</h4>
+          <p class="section__description"><strong>TEMS Tech Solutions</strong></p>
+          <p>(Sep 2024 - Nov 2024)</p>
+          <p class="section__description">
+            - API Encryption<br>
+            - IDS & WAP Deployment<br>
+            - Access Controls Development<br>
+            - Incident Response Report Writing
+          </p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-terminal-box-line"></i></span>
+          <h4>Cybersecurity with Kali Linux Intern</h4>
+          <p class="section__description"><strong>APSSDC</strong></p>
+          <p>(May 2024 - June 2024)</p>
+          <p class="section__description">
+            - Practical experience with penetration testing tools<br>
+            - Conducted vulnerability assessments and network analysis
+          </p>
+        </div>
+      </div>
+
+      <!-- Certifications Tab -->
+      <div class="panel__grid" data-panel="3">
+        <div class="panel__card">
+          <span><i class="ri-award-fill"></i></span>
+          <h4>Cybersecurity Engineer</h4>
+          <p class="section__description">QualityThoughts Infosystems</p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-award-fill"></i></span>
+          <h4>Cybersecurity Trainee</h4>
+          <p class="section__description">MasetingUp</p>
+        </div>
+        <div class="panel__card">
+          <span><i class="ri-award-fill"></i></span>
+          <h4>Ethical Hacker</h4>
+          <p class="section__description">Cisco Networking Academy</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__card">
+          <h4>9</h4>
+          <p>Months of Hands-on Experience</p>
+        </div>
+        <div class="banner__card">
+          <h4>5+</h4>
+          <p>Projects in Cybersecurity</p>
+        </div>
+        <div class="banner__card">
+          <h4>3+</h4>
+          <p>Certifications Achieved</p>
+        </div>
+        <div class="banner__card">
+          <h4>100%</h4>
+          <p>Focus on Digital Security</p>
+        </div>
+      </div>
+    </section>
+<footer class="footer" id="contact">
+  <div class="section__container footer__container">
+    <div class="footer__grid">
+      <div class="footer__content">
+        <h4>Thammisetti Sreenivasulu</h4>
+        <p>
+          Motivated B.Tech Cyber Security student with expertise in network
+          security, ethical hacking, and vulnerability analysis. Passionate
+          about safeguarding digital assets and advancing in cybersecurity.
+        </p>
+        <p>
+          Let's connect and explore innovative ways to secure systems and
+          networks.
+        </p>
+        <p>Thank you for visiting!</p>
+        <div class="footer__socials">
+          <a href="mailto:sree.tham147@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://github.com/Sreenivas-147" target="_blank"><i class="ri-github-fill"></i></a>
+          <a href="https://linkedin.com/in/sreenivasulu-thammisetti-178b83245" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bar">
+    Copyright © 2024 Thammisetti Sreenivasulu. All rights reserved.
+  </div>
+</footer>
+
+    
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
