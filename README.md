@@ -1,7 +1,7 @@
 
 ---
 
-### ✅ `README.md`
+## ✅ `README.md`
 
 ```markdown
 # 💻 Thammisetti Sreenivasulu - Cybersecurity Portfolio
