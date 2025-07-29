@@ -1,10 +1,8 @@
 
 ---
 
-## ✅ `README.md`
-
 ```markdown
-# 💻 Thammisetti Sreenivasulu - Cybersecurity Portfolio
+💻 Thammisetti Sreenivasulu - Cybersecurity Portfolio
 
 Welcome to my personal cybersecurity portfolio website!  
 This site showcases my background, experience, skills, certifications, and professional journey in the field of **Cybersecurity**.
